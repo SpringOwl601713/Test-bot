@@ -1,0 +1,23 @@
+{
+  "name": "serenity-discord-bot",
+  "version": "1.0.2",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "node src/deploy-commands.js",
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "demo": "node scripts/demo-vscode.js"
+  },
+  "engines": {
+    "node": ">=22.5 <23"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.4.2",
+    "tiktok-live-connector": "^2.4.3",
+    "@discordjs/voice": "^0.19.0",
+    "ffmpeg-static": "^5.2.0"
+  }
+}
