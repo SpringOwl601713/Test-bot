@@ -1,0 +1,10 @@
+{
+  "editor.fontSize": 16,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "off",
+  "workbench.tree.indent": 16,
+  "terminal.integrated.fontSize": 15,
+  "files.exclude": {
+    "**/node_modules": true
+  }
+}
